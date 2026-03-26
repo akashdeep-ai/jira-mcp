@@ -19,4 +19,4 @@ if (-not $env:JIRA_URL -or -not $env:JIRA_API_TOKEN) {
 }
 
 $env:PYTHONPATH = "src"
-py -m mcp_atlassian --transport streamable-http --host 0.0.0.0 --port 8000 --read-only -vv
+py -m mcp_atlassian --transport streamable-http --host 0.0.0.0 --port 8080 --read-only -vv

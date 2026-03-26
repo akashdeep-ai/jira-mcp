@@ -24,7 +24,7 @@ pip install -r requirements.txt
 uv run mcp-atlassian
 
 # HTTP transport
-uv run mcp-atlassian --transport streamable-http --port 8000 --host 0.0.0.0
+uv run mcp-atlassian --transport streamable-http --port 8080 --host 0.0.0.0
 
 # With verbose logging
 uv run mcp-atlassian -vv
@@ -52,7 +52,7 @@ Set environment variables or use `.env` file:
 - `JIRA_PERSONAL_TOKEN`: Personal Access Token for Server/DC
 - `READ_ONLY_MODE`: Set to `true` to disable write operations
 - `TRANSPORT`: `stdio`, `sse`, or `streamable-http`
-- `PORT`: Port for HTTP transports (default: 8000)
+- `PORT`: Port for HTTP transports (default: 8080)
 
 **Note on Session Management:**
 
