@@ -1,4 +1,4 @@
-# MCP Atlassian Server
+# MCP Atlassian Server v1
 
 This is the MCP (Model Context Protocol) server implementation for Atlassian products (Jira and Confluence).
 
